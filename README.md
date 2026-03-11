@@ -1,6 +1,6 @@
-# Option Analysis Dashboard
+# R-Shiny-Option-Payoff-Analyzer
 
-A robust financial tool built with **R Shiny** to perform real-time analysis of option contracts. This application allows users to input specific deal parameters to visualize payoff profiles and calculate essential Greeks.
+A web-based financial tool built with **R Shiny** to perform real-time analysis of option contracts. This application allows users to input specific deal parameters to visualize payoff profiles and calculate essential Greeks.
 
 ## Mathematical Foundation
 This tool utilizes the **Black-Scholes-Merton** model for option pricing. The dashboard evaluates both the intrinsic payoff at expiration and the theoretical market price:
@@ -30,3 +30,6 @@ $$Put = \max(K - S_T, 0) \quad | \quad P = Ke^{-rT}N(-d_2) - S_0 N(-d_1)$$
 You need R installed on your system. It is recommended to use **RStudio**.
 
 ### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/MehrdadHeyrani/R-Shiny-Option-Payoff-Analyzer.git](https://github.com/MehrdadHeyrani/R-Shiny-Option-Payoff-Analyzer.git)
