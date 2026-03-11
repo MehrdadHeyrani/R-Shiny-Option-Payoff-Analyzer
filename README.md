@@ -17,7 +17,8 @@ $$Put = \max(K - S_T, 0) \quad | \quad P = Ke^{-rT}N(-d_2) - S_0 N(-d_1)$$
 * $N(d)$: Cumulative distribution function of the standard normal distribution
 
 ## Application Preview
-![Option Dashboard Interface](images/dashboard_screenshot.png)
+![Option Dashboard Interface](Greeks.png)
+![Option Dashboard Interface](payoff.png)
 
 ## Features
 * **Payoff Analysis:** Interactive visualization of profit/loss profiles at expiration.
